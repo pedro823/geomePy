@@ -17,7 +17,7 @@ if __name__ == '__main__':
 	LENGTH = 100
 
 	if len (sys.argv) < 2:
-		print sys.argv[0],'<num> [length]'
+		print(sys.argv[0],'<num> [length]')
 		sys.exit (1)
 
 	if len (sys.argv) > 2:
@@ -27,4 +27,4 @@ if __name__ == '__main__':
 	l = randbox (int (sys.argv[1]), LENGTH)
 
 	for p in l:
-		print p[0],p[1]
+		print(p[0],p[1])

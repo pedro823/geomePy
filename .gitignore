@@ -1,6 +1,6 @@
 *~
 *.pyc
 *.bak
-*bla.sh
 *temp
+*/__pycache__/
 .vscode

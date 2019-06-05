@@ -25,7 +25,7 @@ if __name__ == '__main__':
 	RADIUS = 10000
 
 	if len (sys.argv) < 2:
-		print sys.argv[0],'<num> [radius]'
+		print(sys.argv[0],'<num> [radius]')
 		sys.exit (1)
 
 	if len (sys.argv) > 2:
@@ -35,4 +35,4 @@ if __name__ == '__main__':
 	l = randdisc (int (sys.argv[1]), RADIUS)
 
 	for p in l:
-		print p[0],p[1]
+		print(p[0],p[1])
